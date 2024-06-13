@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um Administrador de Itens simples e funcional">
+    <meta name="keywords" content="HTML, CSS, JavaScript, items, administrador">
+    <meta name="author" content="Deyvid Ribeiro de Paula">
+    <link rel="stylesheet" href="styles.css">
+    <title>Administrador de Itens</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Administrador de Itens</h1>
+    </header>
+    <main id="container">
+        <div id="game-container">
+            <h2>Itens</h2>
+            <div id="itens-container"></div>
+        </div>
+        <nav>
+            <h2>Opções</h2>
+            <div id="opcoes-container">
+                <button onclick="mostrarInput('add')" id="add-button">Adicionar Item</button>
+                <input class="none-display" id="add-input" type="text" placeholder="Nome do Item">
+                <button onclick="mostrarInput('remove')" id="remove-button">Remover Item</button>
+                <input class="none-display" id="remove-input" type="text" placeholder="Nome do Item">
+            </div>
+        </nav>
+    </main>
+    <footer>
+        <h2>Administrador de Items</h2>
+        <p>Deyvid Ribeiro de Paula</p>
+        <p>13/06/2024</p>
+        <b>HTML, CSS, JavaScript</b>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
